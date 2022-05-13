@@ -3,7 +3,7 @@ This project was created to bring satisfaction to Space Club enthusiasts all ove
 
 **Link to project:** http://spc-apod.netlify.app/
 
-![alt tag](https://www.awesomescreenshot.com/video/8892277?key=2b58a932200cc6ef5e4b20a73d6273b2)
+![alt tag](https://github.com/Daniel-Ezekiel/Daniel-Ezekiel/raw/main/images/gif1.gif)
 
 ## How It's Made:
 
