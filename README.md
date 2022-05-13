@@ -9,7 +9,7 @@ This project was created to bring satisfaction to Space Club enthusiasts all ove
 
 **Tech used:** HTML, CSS, JavaScript, NASA APOD API
 
-This project was built using HTML as the base structure with CSS for the styling.Postman(https://www.postman.com/) was used to test the NASA APOD API before it was implemented with the JavaScript. Based on the data obtained from the API, DOM manipulation was carried out to change and display data obtained within the DOM.
+This project was built using HTML as the base structure with CSS for the styling. Postman (https://www.postman.com/) was used to test the NASA APOD API before it was implemented with the JavaScript. Based on the data obtained from the API, DOM manipulation was carried out to change and display data obtained within the DOM.
 
 ## Optimizations
 
@@ -20,7 +20,7 @@ Also, instead of using just a bland background, which looks good by the way, the
 ## Lessons Learned:
 
 No matter what your experience level, being an engineer means continuously learning. I learnt quite a lot, for example, I learnt how to better implement flexbox in design and also a more efficient way of styling background images.
-I was also able to see the importance of testing before implementations especially for APIs, Postman(https://www.postman.com/) was really helpful in acheiving that.
+I was also able to see the importance of testing before implementations especially for APIs, Postman (https://www.postman.com/) was really helpful in acheiving that.
 This project has also helped me find efficient ways to solve problems, like in making a different background upon each time the website is loaded and other things like creating new elements within the DOM and manipulating those created elements
 
 ## Examples:
