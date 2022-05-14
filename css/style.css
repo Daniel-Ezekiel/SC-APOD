@@ -24,15 +24,19 @@ html{
   font-size: 62.5%;
 }
 
-body {
+body {  
+  max-height: 250vh;
   padding: 15px;
   background-color: rgb(31, 29, 29);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
   /* background: url(../images/SC-APOD-bg2.webp) 50% 50% no-repeat;
   background-size: cover; */
 }
 
 body *{
-  color: rgb(196, 191, 191);
+  color: rgb(238, 234, 234);
   font-family: 'Red Hat Display', sans-serif;
 }
 
@@ -71,6 +75,48 @@ main.center{
   height: 80vh;
 }
 
+.bg-img-box{
+  margin: 15px;
+  border-radius: 12px;
+  padding: 5px 15px;
+  width: 380px;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);  
+}
+
+.bg-img-box span{
+  display: block;
+  padding-top: 10px;
+  text-align: center;
+}
+
+div h5{
+  margin-top: 5px;
+  margin-bottom: 0;
+  text-align: center;
+
+  font-size: 1.3rem;
+  font-weight: 40;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg-img-box li{
+  margin-right: 7px;
+  width: 25%;
+}
+
+.bg-img-box img{
+  border-radius: 12px;
+  width: 100%;
+}
+
 .after-click{
   align-self: flex-start;
 }
@@ -100,6 +146,7 @@ h2{
 
 .desc-text-box{
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   margin: 25px 0;
   padding: 20px 10px;
   border-radius: 12px;
@@ -115,7 +162,8 @@ h2{
 }
 
 section.before-click{
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);  
+  background-color: rgba(0, 0, 0, 0.4);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -126,14 +174,23 @@ section.before-click{
 
 .today{
   text-decoration: none;
-  border: 1px solid rgb(196, 191, 191);
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 50px;
   padding: 15px 25px;
 
+  color:rgb(255, 255, 255);
   font-size: 1.5rem;
 }
 
+.today:hover{
+  color:rgb(255, 248, 248);
+  border: 2px solid rgb(232, 230, 230);
+  
+  text-decoration: underline;
+}
+
 .another-date p{
+  color:rgb(255, 255, 255);
   text-align: center;
   font-size: 1.4rem;
 }
@@ -142,6 +199,7 @@ section.before-click{
   padding: 7px;
   margin-right: 10px;
   border-radius: 5px;
+  border: none;
 
   font-size: 1.3rem;
   color: #000;
@@ -150,15 +208,17 @@ section.before-click{
 .another-day{
   text-decoration: none;
 
-  border: 1px solid rgb(196, 191, 191);
+  border: 1px solid rgb(255, 255, 255);
   border-radius: 5px;
   padding: 10px 15px;
 
   font-size: 1.35rem;
 }
 
-a:hover{
+input + a:hover{
   text-decoration: underline;
+  color:rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
 }
 
 footer{
