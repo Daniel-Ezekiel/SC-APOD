@@ -59,7 +59,8 @@ showImageBtn.forEach( btn => {
                 if(data.media_type === 'image'){
                     document.querySelector('iframe').classList.add('hidden');  
                     document.querySelector('.apod').classList.remove('hidden');                  
-                    document.querySelector('.apod').src = data.hdurl;
+                    document.querySelector('.apod').src = data.url;
+                    body.style.backgroundImage = `url(${data.url})`
                 }else {
                     document.querySelector('.apod').classList.add('hidden');
                     document.querySelector('iframe').classList.remove('hidden');  
