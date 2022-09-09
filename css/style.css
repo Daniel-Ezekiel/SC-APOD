@@ -27,36 +27,31 @@ html{
 body {  
   max-height: 250vh;
   padding: 15px;
-  background-color: rgb(31, 29, 29);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+  background: url(../images/SC-APOD-bg3.webp) 50% 50% no-repeat;
   background-size: cover;
-  /* background: url(../images/SC-APOD-bg2.webp) 50% 50% no-repeat;
-  background-size: cover; */
 }
 
 body *{
   color: rgb(238, 234, 234);
-  font-family: 'Red Hat Display', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 
 /******************************************
 /* LAYOUT
-font-family: 'Playfair Display', serif;
-font-family: 'Red Hat Display', sans-serif;
 /*******************************************/
 header {
-  text-align: center;
+  margin: 3.2rem 0;
 
-  margin: 32px 0;
+  text-align: center;
 }
 
 header a{
   text-decoration: none;
   text-transform: uppercase;
 
-  font-size: 2.8rem;
+  font-family: 'Lora', serif;
+  font-size: 3rem;
 }
 
 header a:hover{
@@ -72,26 +67,26 @@ main {
 }
 
 main.center{
-  height: 80vh;
+  min-height: 80vh;
 }
 
 .bg-img-box{
-  margin: 15px;
-  border-radius: 12px;
-  padding: 5px 15px;
-  width: 380px;
+  margin: 1.5rem;
+  border-radius: 1.2rem;
+  padding: 0.5rem 1.5rem;
+  max-width: 38rem;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
   background-color: rgba(0, 0, 0, 0.3);  
 }
 
 .bg-img-box span{
   display: block;
-  padding-top: 10px;
+  padding-top: 1rem;
   text-align: center;
 }
 
 div h5{
-  margin-top: 5px;
+  margin-top: 0.5rem;
   margin-bottom: 0;
   text-align: center;
 
@@ -108,12 +103,12 @@ ul{
 }
 
 .bg-img-box li{
-  margin-right: 7px;
+  margin-right: 0.7rem;
   width: 25%;
 }
 
 .bg-img-box img{
-  border-radius: 12px;
+  border-radius: 1.2rem;
   width: 100%;
 }
 
@@ -123,33 +118,38 @@ ul{
 
 h1,
 h2{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lora', serif;
   font-size: 3.2rem;
+  text-decoration: underline;
+}
+
+h1{
+  margin-bottom: 0;
 }
 
 .media{
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .media img{
   width: 100%;
-  border-radius: 12px;
+  border-radius: 1.2rem;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
 }
 
 .media iframe{
   width: 100%;
-  height: 300px;
-  border-radius: 12px;
+  height: 30rem;
+  border-radius: 1.2rem;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
 }
 
 .desc-text-box{
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.3);
   background-color: rgba(0, 0, 0, 0.3);
-  margin: 25px 0;
-  padding: 20px 10px;
-  border-radius: 12px;
+  margin: 2.5rem 0;
+  padding: 2rem 1rem;
+  border-radius: 1.2rem;
 }
 
 h2{
@@ -168,15 +168,15 @@ section.before-click{
   flex-direction: column;
   align-items: center;
   width: 100%;
-  padding: 15px 8px;
-  border-radius: 12px;
+  padding: 1.5rem 0.8rem;
+  border-radius: 1.2rem;
 }
 
 .today{
   text-decoration: none;
   border: 1px solid rgb(255, 255, 255);
-  border-radius: 50px;
-  padding: 15px 25px;
+  border-radius: 5rem;
+  padding: 1.5rem 2.5rem;
 
   color:rgb(255, 255, 255);
   font-size: 1.5rem;
@@ -184,7 +184,7 @@ section.before-click{
 
 .today:hover{
   color:rgb(255, 248, 248);
-  border: 2px solid rgb(232, 230, 230);
+  border: 0.2rem solid rgb(232, 230, 230);
   
   text-decoration: underline;
 }
@@ -196,9 +196,9 @@ section.before-click{
 }
 
 .another-date input{
-  padding: 7px;
-  margin-right: 10px;
-  border-radius: 5px;
+  padding: 0.7rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
   border: none;
 
   font-size: 1.3rem;
@@ -208,9 +208,9 @@ section.before-click{
 .another-day{
   text-decoration: none;
 
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 5px;
-  padding: 10px 15px;
+  border: 0.1rem solid rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem;
 
   font-size: 1.35rem;
 }
@@ -222,18 +222,18 @@ input + a:hover{
 }
 
 footer{
-  margin: 20px 0;
+  margin: 2rem 0;
 }
 
 footer span{
   display: block;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 1.3rem;
   text-align: center;
 }
 
 footer span a{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lora', serif;
   font-weight: 700;
   text-decoration: none;
 }
@@ -263,8 +263,8 @@ footer span a{
   }
 
   section.before-click{
-    max-width: 450px;
-    padding: 50px 20px;
+    max-width: 45rem;
+    padding: 5rem 2rem;
   }
 
   section.hidden{
@@ -283,12 +283,12 @@ footer span a{
     font-size: 3.5rem;
   }
 
-  section.after-click{
+  .after-click{
     display: flex;
     flex-flow: row wrap;
-    gap: 20px;
+    gap: 2rem;
 
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
   }
 
   .media{
@@ -298,7 +298,7 @@ footer span a{
   .desc-text-box{
     max-width: 30%;
     height: fit-content;
-    padding: auto 13px;
+    padding: auto 1.3rem;
   }
 
   span{
@@ -316,6 +316,6 @@ footer span a{
   }
 
   footer{
-    margin: 25px auto 10px;
+    margin: 2.5rem auto 1rem;
   }
 }
